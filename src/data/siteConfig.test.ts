@@ -10,11 +10,11 @@ describe('siteConfig domain invariants', () => {
     expect(siteConfig.distanceToCenter).toContain('2 km');
   });
 
-  it('references all 7 real photographs from /images/1.png through /images/7.png', () => {
+  it('references all 7 real photographs from images/1.png through images/7.png', () => {
     const gallerySrcs = siteConfig.gallery.map((item) => item.src);
     expect(gallerySrcs).toHaveLength(7);
     for (let i = 1; i <= 7; i++) {
-      expect(gallerySrcs).toContain(`/images/${i}.png`);
+      expect(gallerySrcs).toContain(`images/${i}.png`);
     }
   });
 

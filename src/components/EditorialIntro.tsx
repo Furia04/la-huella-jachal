@@ -44,7 +44,7 @@ export function EditorialIntro() {
           <div className="lg:col-span-5 relative">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-2xl border border-piedra/80 bg-arena">
               <img
-                src="/images/4.png"
+                src="images/4.png"
                 alt="Vista exterior de una casa de campo en La Huella al atardecer"
                 className="w-full h-full object-cover"
               />
@@ -54,7 +54,7 @@ export function EditorialIntro() {
             <div className="hidden sm:block w-56 -mt-24 -ml-8 relative z-10 rounded-xl overflow-hidden border-4 border-cal bg-arena shadow-md">
               <div className="aspect-[4/3]">
                 <img
-                  src="/images/6.png"
+                  src="images/6.png"
                   alt="Detalle de galería techada en caña y vegetación autóctona"
                   className="w-full h-full object-cover"
                 />

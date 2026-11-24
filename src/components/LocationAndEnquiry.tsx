@@ -62,7 +62,7 @@ export function LocationAndEnquiry({
             {/* Postal panorámica de cordillera */}
             <div className="overflow-hidden rounded-2xl border border-piedra bg-cal aspect-[16/9] relative">
               <img
-                src="/images/7.png"
+                src="images/7.png"
                 alt="Paisaje de montañas en el ingreso a La Huella en San José de Jáchal"
                 className="w-full h-full object-cover object-[70%_20%] scale-105"
               />
